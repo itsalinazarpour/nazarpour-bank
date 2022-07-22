@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](img/screenshot.jpg)
+[![Product Name Screen Shot][product-screenshot]](img/screenshot.png)
 
 
 
@@ -183,4 +183,4 @@ Project Link: [https://github.com/itsalinazarpour/nazarpour-bank](https://github
 [license-url]: https://github.com/itsalinazarpour/nazarpour-bank/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/itsalinazarpour/
-[product-screenshot]: img/screenshot.jpg
+[product-screenshot]: img/screenshot.png
