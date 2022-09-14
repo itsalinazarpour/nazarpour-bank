@@ -131,7 +131,7 @@ _For more examples, please refer to the [Documentation](https://github.com/itsal
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/itsalinazarpour/nazarpour-bank/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/itsalinazarpour/nazarpour-bank/issues) for a full list of proposed features.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
