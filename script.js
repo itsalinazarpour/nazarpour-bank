@@ -303,5 +303,9 @@ dotsContainer.addEventListener("click", function (e) {
   }
 });
 
+// scroll up before reloading the page
+window.addEventListener("beforeunload", function () {
+  this.window.scrollTo(0, 0);
+});
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
