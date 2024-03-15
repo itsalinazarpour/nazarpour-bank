@@ -41,7 +41,7 @@ const navList = document.querySelector(".nav__links");
 // Modal window
 
 const toggleModal = function (e) {
-  e.preventDefault();
+  e?.preventDefault();
   modal.classList.toggle("hidden");
   overlay.classList.toggle("hidden");
 };
