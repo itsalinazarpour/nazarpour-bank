@@ -73,14 +73,19 @@ message.innerHTML = `<h3>Cookie preferences</h3> <p>This website collects cookie
 body.append(message);
 
 setTimeout(function () {
-  document.querySelector(".cookie-message").style.bottom = "0";
-}, 5000);
+  message.style.bottom = "0";
+}, 500);
 
 document.querySelectorAll(".btn--close-cookie").forEach((btn) => {
   btn.addEventListener("click", function () {
-    document.querySelector(".cookie-message").style.bottom = "-28rem";
+    console.log(getComputedStyle(message).height);
+    message.style.bottom = `-${
+      Number.parseFloat(getComputedStyle(message).height) +
+      Number.parseFloat(getComputedStyle(document.documentElement).fontSize) * 2
+    }px`;
   });
 });
+console.log();
 
 ///////////////////////////////////////
 // button scroll to
