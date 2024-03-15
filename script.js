@@ -78,14 +78,12 @@ setTimeout(function () {
 
 document.querySelectorAll(".btn--close-cookie").forEach((btn) => {
   btn.addEventListener("click", function () {
-    console.log(getComputedStyle(message).height);
     message.style.bottom = `-${
       Number.parseFloat(getComputedStyle(message).height) +
       Number.parseFloat(getComputedStyle(document.documentElement).fontSize) * 2
     }px`;
   });
 });
-console.log();
 
 ///////////////////////////////////////
 // button scroll to
