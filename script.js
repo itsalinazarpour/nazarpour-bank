@@ -152,7 +152,9 @@ const headerCallback = function (enteries) {
     if (!entery.isIntersecting) {
       nav.classList.add("sticky");
       navList.style.backgroundColor = "rgba(255, 255, 255, 0.95)";
-    } else {
+    }
+
+    if (entery.isIntersecting) {
       nav.classList.remove("sticky");
       navList.style.backgroundColor = "#f3f3f3";
     }
