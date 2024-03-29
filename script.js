@@ -295,7 +295,7 @@ const slideLeft = function () {
 sliderBtnLeft.addEventListener("click", slideLeft);
 
 // arrow keys
-document.addEventListener("keydown", function (e) {
+document.addEventListener("keyup", function (e) {
   if (e.key === "ArrowLeft") slideLeft();
   e.key === "ArrowRight" && slideRight();
 });
